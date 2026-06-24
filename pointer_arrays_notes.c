@@ -9,6 +9,8 @@ int main(void)
     //assigning it to pointer is valid
     int *p = arr;
 
+    *p++; // p pointer is now a walking pointer
+
     for (int i; i < 3; i++)
     {
         //indexing is with pointer
